@@ -27,6 +27,12 @@ As part of implementation below design principles are considered
 
 Note : For local verification H2 database is configure as part of application . Table will automatically created during startup
 
+Docker based application steps below
+
+1. docker build -f DockerFile -t bharanimasi11/bharanirepo:amnapp . ( specify docker file with path if executed from different location and tag name along with docker repository , added personal repository for sample )
+2. docker push bharanimasi11/bharanirepo:amnapp
+3. docker run bharanimasi11/bharanirepo:amnapp . (Application will startup in port mentioned in application properties)
+
 
 
 
