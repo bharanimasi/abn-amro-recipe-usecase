@@ -1,0 +1,9 @@
+INSERT INTO Recipes (id, recipeName, recipeInstructions, recipetype, servingsNumber, ingredients) VALUES (1, 'Panner Masala', 'Toast Paneer alongg with creamy flavour', 'Veg', 10 , 'Paneer,Tomato,Cream');
+INSERT INTO Recipes (id, recipeName, recipeInstructions, recipetype, servingsNumber, ingredients) VALUES (2, 'Peas Masala', 'Toast Peas alongg with chilly', 'Veg', 10 , 'Peas,Tomato,Chilly,Masala');
+INSERT INTO Recipes (id, recipeName, recipeInstructions, recipetype, servingsNumber, ingredients) VALUES (3, 'Fried Chicken', 'Mix Flour with Chcicken and Toast', 'N0n-veg', 10 , 'Chicken,Tomato,Cream');
+INSERT INTO Recipes (id, recipeName, recipeInstructions, recipetype, servingsNumber, ingredients) VALUES (4, 'Panner Masala', 'Toast Paneer alongg with creamy flavour', 'Veg', 10 , 'Paneer,Tomato,Cream');
+INSERT INTO Recipes (id, recipeName, recipeInstructions, recipetype, servingsNumber, ingredients) VALUES (5, 'Panner Masala', 'Toast Paneer alongg with creamy flavour', 'Veg', 10 , 'Paneer,Tomato,Cream');
+INSERT INTO Recipes (id, recipeName, recipeInstructions, recipetype, servingsNumber, ingredients) VALUES (6, 'Panner Masala', 'Toast Paneer alongg with creamy flavour', 'Veg', 10 , 'Paneer,Tomato,Cream');
+INSERT INTO Recipes (id, recipeName, recipeInstructions, recipetype, servingsNumber, ingredients) VALUES (7, 'Panner Masala', 'Toast Paneer alongg with creamy flavour', 'Veg', 10 , 'Paneer,Tomato,Cream');
+INSERT INTO Recipes (id, recipeName, recipeInstructions, recipetype, servingsNumber, ingredients) VALUES (8, 'Panner Masala', 'Toast Paneer alongg with creamy flavour', 'Veg', 10 , 'Paneer,Tomato,Cream');
+INSERT INTO Recipes (id, recipeName, recipeInstructions, recipetype, servingsNumber, ingredients) VALUES (9, 'Panner Masala', 'Toast Paneer alongg with creamy flavour', 'Veg', 10 , 'Paneer,Tomato,Cream');
