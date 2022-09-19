@@ -44,8 +44,8 @@ Docker based application steps below
 
 Once application up, below url can be used :
 
-Health Check : http://localhost:8081/actuator/health
-Swagger Documentation : http://localhost:8081/swagger-ui/index.html
+1. Health Check : http://localhost:8081/actuator/health
+2. Swagger Documentation : http://localhost:8081/swagger-ui/index.html
 
 
 
