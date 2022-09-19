@@ -5,7 +5,7 @@ API Service which allows user to manage their favourite recipes . As part of thi
 3. Removing existing recipe
 4. Search recipes based on recipe name ,type , serving numbers , ingredients and text search on instruction
 
-**Design Principles:**
+**Design Principles Considered:**
 
 As part of implementation below design principles are considered
 
@@ -17,6 +17,15 @@ As part of implementation below design principles are considered
 
 **3. Dependency Inversion Principle**
             Every dependency in the design should target an interface or an abstract class. No dependency should target a concrete class.Object creation code is centralized in the framework and  code is not messed up with any future implemenetation
+
+Design Pattern Considered:
+
+1. **Database per Service**
+      Accessed by the microservice API only.For relational databases, use private-tables-per-service, schema-per-service, or database-server-per-service. Each microservice should have a separate database id so that separate access can be given to put up a barrier and prevent it from using other service tables.
+ 
+2. **Decomposition Patterns**
+      One strategy is to decompose by business capability. A business capability is something that a business does in order to generate value. The set of capabilities for a given business.
+           
 
 
 **Steps to builld and run application :**
