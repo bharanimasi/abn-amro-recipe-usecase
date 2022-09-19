@@ -25,7 +25,8 @@ Design Pattern Considered:
  
 2. **Decomposition Patterns**
       One strategy is to decompose by business capability. A business capability is something that a business does in order to generate value. The set of capabilities for a given business.
-           
+
+**Database Considered:**
 
 
 **Steps to builld and run application :**
