@@ -42,6 +42,10 @@ Docker based application steps below
 2. docker push bharanimasi11/bharanirepo:amnapp
 3. docker run bharanimasi11/bharanirepo:amnapp . (Application will startup in port mentioned in application properties)
 
+Once application up, below url can be used :
+
+Health Check : http://localhost:8081/actuator/health
+Swagger Documentation : http://localhost:8081/swagger-ui/index.html
 
 
 
