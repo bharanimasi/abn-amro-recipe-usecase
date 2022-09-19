@@ -38,14 +38,13 @@ As part of implementation below design principles are considered
 
 **Database Considered:**
       Considering the usecase , the database prefer for the scenarions should be more scalable , high availability , more robust and ensure it best for text based search . Based on this factors the best choice would be MSSQL .It satisfy all the requirement to provide best results . In additon , it mor adatable to develope datamodel in relation model for future developments. For local development , H2 in memory database.
+  
 
 **Steps to builld and run application :**
 
 1. Clone the project from GITHUB : https://github.com/bharanimasi/abn-amro-recipe-usecase
 2. mvn clean install (to clean and compile and generate jar)
 3. mvn spring-boot:run
-
-Note : For local verification H2 database is configure as part of application . Table will automatically created during startup
 
 Docker based application steps below
 
@@ -101,7 +100,16 @@ Once application up, below url can be used :
         'http://localhost:8081/recipes?recipetype=Veg&servings=100&includeIngredient=Paneer&excludeIngredient=Chicken&instructions=Mix&pageNumber=0&pageSize=2' \
         -H 'accept: */*'
 
+**Future Scope**
 
+      1. Spring Security
+      2. Kubernetes containerization
+      3. CI/CD setup
+      4. Code Vulernability Check
+      5. User Management
+      6. Spring Feign client for interservice call
+    
+      
    
 
 
